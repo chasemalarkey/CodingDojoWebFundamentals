@@ -1,0 +1,50 @@
+/* Part 1 */
+/* .row{
+    display: flex;
+    
+}
+.col {
+    background-color: lightblue;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+} */
+/* 
+Part 2  */
+/* .row{
+    display: flex;
+}
+
+.col{
+    background-color: lightblue;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2{
+    background-color: lightblue;
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+} */
+
+/* Part 3 */
+
+.row{
+    display: flex;
+}
+
+.col-3{
+    background-color: lightblue;
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-4{
+    background-color: lightblue;
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+}
