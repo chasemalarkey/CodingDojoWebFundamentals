@@ -1,0 +1,30 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 200px;
+}
+
+.blue {
+    background-color: aqua;
+    
+}
+.pink {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.white {
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue, .pink, .white {
+    padding: 10px;
+    margin: 10px;
+}
+#center {
+    display: flex;
+    justify-content: space-around;

@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav {
+    margin: 0px auto;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 1086px;
+}
+#easybay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#blue{
+    background-color:#00bbb7;
+    width: 40px;
+}
+#easybay input{
+    width: 800px;
+    border-radius: 25px;
+    height: 25px;
+    background-color:#f5f4f6;
+}
+#cart{
+    width: 40px;
+}
+#types{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 0px 5px 0px;
+}
+#webpage h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#firstrow{
+    display: flex;
+    justify-content: center;
+}
+#discover{
+    display: flex;
+}
+#column1{
+    background-color: #00bbb7;
+    margin: 0px auto;
+    color: white;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 0px 25px;
+
+}
+#column1 h2{
+    display: flex;
+    align-items: center;
+    
+}
+#succulents{
+    height: 300px;
+}
+
+#aloePic1{
+    margin-left: 25px;
+    height: 196px;
+    margin-bottom: 25px;
+}
+#soothing {
+    background-color: #00bbb7;
+    color: white;
+    margin-left: 25px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 25px;
+    height: 75px;
+}
+
+#aloe p{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 25px;
+}
+#secondRow{
+    background-color:#aeeae9;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 25px;
+    width: 1036px;
+    padding: 0px 25px;
+}
+#secondRow img{
+    border-radius: 50%;
+    width: 125px;
+}
+#secondRow p{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#cookie{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    width: 1036px;
+    margin: 0px auto;
+    margin-top: -20px;
+    background-color: white;
+    height: 75px;
+}
+#cookie img{
+    margin-left: 25px;
+    width: 50px;
+}
+button{
+    background-color: #00bbb7;
+    color: white;
+    box-shadow: 0px 5px 5px 5px black;
+    width: 75px;
+    height: 25px;
+    margin-right: 25px;
+}

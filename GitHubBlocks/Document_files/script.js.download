@@ -1,0 +1,7 @@
+function removeCookie(){
+    var element = document.getElementById("cookie")
+    element.remove()
+}
+function _alert(){
+    alert("Your cart is empty!")
+}
