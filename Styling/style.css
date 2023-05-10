@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+
+.blue {
+    color: aqua;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: right;
+    text-decoration: underline;
+}
