@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapping">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <div class="search">
+                <form action="">
+                    <!-- <label for="search"></label> -->
+                    <input type="text" name="Search" placeholder="Search">
+                </form>
+            </div>
+            <div class="button">
+                <button onclick="logOut(this)">Login</button>
+            </div>
+        </div>
+        <div class="webpage">
+            <div class="leftColumn">
+                <div class="definitionOne">
+                    <div class="ninja">
+                        <div class="heading">
+                            <h2>ninja</h2>
+                        </div>
+                        <div class="noun">
+                            <p><em>noun</em></p>
+                        </div>
+                        <div class="plural">
+                            <p>Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="likeButton">
+                            <button onclick="addLikes('addOne')"><span id="addOne">13</span> likes</button>
+                        </div>
+    
+                    </div>
+                    <div class="meaning">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjustsu</a></p>
+                    </div>
+    
+                </div>
+                <div class="definitionTwo">
+                    <div class="ninja">
+                        <div class="heading">
+                            <h2>ninja</h2>
+                        </div>
+                        <div class="noun">
+                            <p><em>noun</em></p>
+                        </div>
+                        <div class="plural">
+                            <p>Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="likeButtonTwo">
+                            <button onclick="addLikes('addTwo')"><span id="addTwo">37</span> likes</button>
+                        </div>
+    
+                    </div>
+                    <div class="meaning">
+                        <p>A <a href="#">programmer </a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="definitionThree">
+                <h2>Dojonary is defined by <b>YOU</b></h2>
+                <div class="addDefinitionButton">
+                    <button onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
